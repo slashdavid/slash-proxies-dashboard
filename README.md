@@ -1,4 +1,6 @@
-# Benefits: Provides access to core statistics on customer IP-proxy bandwidth usage rates and how they compare to other users.
+![Header Image](assets/Slash_Proxies_header.png)
+
+# Use Case: Provides access to core statistics on customer IP-proxy bandwidth usage rates and how they compare to other users.
 
 # Authors
 - [@slashdavid](https://github.com/slashdavid)
