@@ -18,7 +18,7 @@ Multiple cleansing procedures such as:
 - Removing unneeded fields from JSON files
 - JSON to CSV parsing
 
-Procedures can be found within the [Data Formatting](https://github.com/slashdavid/slash-proxies-dashboard/blob/main/notebooks/data_formatting.ipynb) notebook.
+Procedures can be found within the [Data Formatting](documentation/data_formatting.ipynb) notebook.
 
 # Tech Stack
 - Python
