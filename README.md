@@ -2,14 +2,6 @@
 
 # Use Case: Provides ease of access to core statistics on global and specific customer IP-proxy bandwidth usage rates.
 
-# Table of Contents
-- [Business problem](https://github.com/slashdavid/slash-proxies-dashboard#business-problem)
-- [Data Collection](https://github.com/slashdavid/slash-proxies-dashboard#data-collection)
-- [Data Cleansing](https://github.com/slashdavid/slash-proxies-dashboard#data-cleansing)
-- [Tech stack](https://github.com/slashdavid/slash-proxies-dashboard#tech-stack)
-- [Quick view of dashboard](https://github.com/slashdavid/slash-proxies-dashboard#quick-view-of-dashboard)
-- [Repository structure](https://github.com/slashdavid/slash-proxies-dashboard#repository-structure)
-
 # Business problem
 This dashboard allows me to obtain a clear perspective on company performance in relation to customer bandwidth usage patterns. When sourcing residenital proxies from upstream providers, you're limited to the information that their platform aggregates, which is often quite limited. This dashboard solves this issue by organizing and displaying this information under a user-friendly design.
 
