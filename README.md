@@ -30,7 +30,7 @@ This dashboard allows me to obtain a clear perspective on company performance in
 - Tableau
 
 # Quick view of dashboard
-
+![Dashboard Gif](assets/dashboard.gif)
 # Repository structure
 ```
 
