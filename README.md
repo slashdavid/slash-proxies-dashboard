@@ -6,7 +6,9 @@
 This dashboard allows me to obtain a clear perspective on company performance in relation to customer bandwidth usage patterns. When sourcing residenital proxies from upstream providers, you're limited to the information that their platform aggregates, which is often quite limited. This dashboard solves this issue by organizing and displaying this information under a user-friendly design.
 
 # Data Collection
-As this project was inspired by my IP-proxy company, Slash Proxies, I was able to receive exports of user bandwidth usage statisics from our upstream provider and financial summaries from our company Stripe account. However, I had to restore old company database files through MongoDB Shell.
+As this project was inspired by my IP-proxy company, Slash Proxies, I was able to receive exports of user bandwidth usage statisics from our upstream provider and financial summaries from our company Stripe account.
+
+However, I had to restore old company database files through MongoDB Shell.
 
 Exact procedure can be found in **data collection notebook**.
 
