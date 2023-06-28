@@ -33,18 +33,29 @@ Procedures can be found within the **[formatting notebook](https://github.com/sl
 # Repository structure
 ```
 
+
+├── analysis_files
+│   ├── final_files
+│      ├── active_users_by_date.csv               <- the dataset with # of active users grouped by date.
+│      ├── filtered_customers.json                <- the dataset with all required customer info (contains placeholder data).
+│      ├── final_subuser_bw_usage.csv             <- the dataset with data matched subuser and customer information.
+│      ├── subuser_bw_usage_sorted.csv            <- the dataset with all subusers and their bandwidth usage by date.
+│      ├── total_bandwidth_usage_by_date.csv      <- the dataset with total bandwidth grouped by date.
+│   ├── unclean
+│      ├── subuser_bw_usage.csv                   <- the dataset with unorganized subuser information.
+│
+│
 ├── assets
-│   ├── Slash_Proxies_header.png                  <- header image used in this readme file.
+│   ├── Slash_Proxies_header.png                  <- the header image used in the readme file.
+│   ├── dashboard.gif                             <- the gif used in the readme file.
 │
 │
-├── datasets
-│   ├── subuser_bw_usage_sorted.csv
-│   ├── active_users_by_date (2020-04 to 2021-01).csv
-│   ├── total_bandwidth_usage_by_year_month (2020-04 to 2021-01).csv
-│   ├── filtered_customers.json
-│   ├── final_subuser_bw_usage.csv
+├── documentation
+│   ├── data_formatting.ipynb                     <- the jupyter notebook that documents my data cleansing process.
+│   ├── mongodb_file_recovery.md                  <- the md file that documents my process of recovering customer data with mongodb.
 │
 │
 ├── README.md                                     <- this readme file.
+
 
 ```
