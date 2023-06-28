@@ -2,22 +2,30 @@
 
 # Use Case: Provides ease of access to core statistics on global and specific customer IP-proxy bandwidth usage rates.
 
-# Authors
-- [@slashdavid](https://github.com/slashdavid)
-
 # Table of Contents
 - [Business problem](https://github.com/slashdavid/slash-proxies-dashboard#business-problem)
 - [Data Collection](https://github.com/slashdavid/slash-proxies-dashboard#data-collection)
+- [Data Cleansing](https://github.com/slashdavid/slash-proxies-dashboard#data-cleansing)
 - [Tech stack](https://github.com/slashdavid/slash-proxies-dashboard#tech-stack)
 - [Quick view of dashboard](https://github.com/slashdavid/slash-proxies-dashboard#quick-view-of-dashboard)
-  [Cleaning the datasets](https://github.com/slashdavid/slash-proxies-dashboard#tech-stack)
 - [Repository structure](https://github.com/slashdavid/slash-proxies-dashboard#repository-structure)
 
 # Business problem
 This dashboard allows me to obtain a clear perspective on company performance in relation to customer bandwidth usage patterns. When sourcing residenital proxies from upstream providers, you're limited to the information that their platform aggregates, which is often quite limited. This dashboard solves this issue by organizing and displaying this information under a user-friendly design.
 
 # Data Collection
-As this project was inspired by my company, Slash Proxies, I was 
+As this project was inspired by my IP-proxy company, Slash Proxies, I was able to receive exports of user bandwidth usage statisics from our upstream provider and financial summaries from our company Stripe account. However, I had to restore old company database files through MongoDB Shell.
+
+Exact procedure can be found in **data collection notebook**.
+
+# Data Cleansing
+Multiple cleansing procedures such as:
+- Removing portions of bugged strings
+- Removing unneeded fields from JSON files
+- JSON to CSV parsing
+
+Procedures can be found within the **formatting notebook**.
+
 # Tech Stack
 - Python
 - SQL
@@ -27,9 +35,6 @@ As this project was inspired by my company, Slash Proxies, I was
 [Link to Tableau Public](https://public.tableau.com/app/profile/david.zhang2464/viz/CustomerBandwidthUsageDashboard/Dashboard?publish=yes)
 
 ![Dashboard Gif](assets/dashboard.gif)
-
-# Cleaning the datasets
-- Received an export of all user bandwidth usage statistics from upstream provider (subuser_bw_usage.csv)
 
 # Repository structure
 ```
