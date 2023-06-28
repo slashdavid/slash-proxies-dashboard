@@ -10,7 +10,7 @@ As this project was inspired by my IP-proxy company, Slash Proxies, I was able t
 
 However, I had to restore old company database files through MongoDB Shell.
 
-Exact procedure can be found in **data collection notebook**.
+Exact procedure can be found in the [MongoDB File Recovery](documentation/mongodb_file_recovery.md) documentation file.
 
 # Data Cleansing
 Multiple cleansing procedures such as:
@@ -18,7 +18,7 @@ Multiple cleansing procedures such as:
 - Removing unneeded fields from JSON files
 - JSON to CSV parsing
 
-Procedures can be found within the **[formatting notebook](https://github.com/slashdavid/slash-proxies-dashboard/blob/main/notebooks/data_formatting.ipynb)**.
+Procedures can be found within the [Data Formatting](https://github.com/slashdavid/slash-proxies-dashboard/blob/main/notebooks/data_formatting.ipynb) notebook.
 
 # Tech Stack
 - Python
